@@ -1,0 +1,22 @@
+{
+  "short_name": "GAT",
+  "name": "Guitar Around Town",
+  "description": "What I offer with my guitar.",
+  "icons": [
+    {
+      "src": "./assets/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./assets/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://guitararoundtown.com",
+  "background_color": "#F5DEB3",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#F5DEB3"
+}

@@ -1,0 +1,50 @@
+
+@font-face { src: url("../assets/CherryCreamSoda-Regular.ttf"); font-family: cherry; }
+
+html, body { margin: 0; padding: 0; font-family: cherry;}
+
+.flexRow {
+	display: flex;
+	flex-direction:  row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*--- Main Section ---*/
+
+#mainSection {
+	padding-top: 2rem;
+	background-color: Wheat;
+}
+
+#mainColumn {
+	margin: 0 2rem 0 2rem;
+}
+
+#headingText {	
+	font-size: 2.8rem;
+	text-align: center;
+}
+
+#playedText {
+	margin: 3rem 0 2rem 0;
+	font-size: 1.8rem;
+	text-align: center;
+}
+
+/*--- Link Section ---*/
+
+#linkSection {
+	padding: 2rem 0 4rem 2rem;
+	background-color: saddlebrown;
+	font-size: 1.2rem;
+	color: white;
+}
+
+.link {
+	color: wheat;	
+}
+
+.link:hover {
+	color: Blue;
+}
