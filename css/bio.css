@@ -19,24 +19,31 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 	text-align: center;
 }
 
+#textPackage {
+	margin: 2rem 0 2rem 0;
+	font-size: 1.2rem;
+	text-align: justify;	
+}
+/*
 #bioText {
 	margin: 2rem 0 2rem 0;
-	font-size: 1.2rem;	
+	font-size: 1.2rem;
+	text-align: justify;
 }
-
+*/
 #myPortrait {
 	width: 14.4rem;
 	height: auto;
 	border: 0.8rem solid SaddleBrown;
 	float: left;
-	margin: 1.4rem 1.4rem 0.6rem 1.4rem;
+	margin: 0rem 1.6rem 0rem 0rem;
 }
 
-/*--- Link Section ---*/
+/*--- Going Home Section ---*/
 
 #linkSection {
 	clear: left;
-	padding: 2rem 0 4rem 2rem;
+	padding: 2rem 2rem 4rem 2rem;
 	background-color: saddlebrown;
 	font-size: 1.2rem;
 	color: white;
