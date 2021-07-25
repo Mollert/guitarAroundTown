@@ -24,19 +24,26 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 	font-size: 1.2rem;
 	text-align: justify;	
 }
-/*
-#bioText {
-	margin: 2rem 0 2rem 0;
-	font-size: 1.2rem;
-	text-align: justify;
-}
-*/
+
 #myPortrait {
 	width: 14.4rem;
 	height: auto;
 	border: 0.8rem solid SaddleBrown;
 	float: left;
-	margin: 0rem 1.6rem 0rem 0rem;
+	margin: 1rem 2rem 0.2rem 1rem;
+}
+
+#cableSpot {
+	margin: 0 0 2rem 0;	
+	font-size: 1.2rem;
+}
+
+.spot {
+	color: saddlebrown;
+}
+
+.spot:hover {
+	color: Blue;
 }
 
 /*--- Going Home Section ---*/
@@ -55,4 +62,12 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 
 .link:hover {
 	color: Blue;
+}
+
+@media screen and (max-width: 500px) {
+	#myPortrait {
+		float: none;
+		margin:  auto;
+		display: block;
+	}
 }
