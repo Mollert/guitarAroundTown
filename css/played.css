@@ -18,19 +18,201 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 }
 
 #mainColumn {
-	margin: 0 2rem 0 2rem;
+	margin: 0 2rem 3rem 2rem;
 }
 
-#headingText {	
+#headingText {
+	margin: 0 0 3rem 0;
 	font-size: 2.8rem;
 	text-align: center;
 }
 
-#playedText {
-	margin: 3rem 0 2rem 0;
-	font-size: 1.8rem;
-	text-align: center;
+.aCard {
+	position: relative;
+	width: 15.4rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
+	-webkit-perspective: 1000;
+	-moz-perspective: 1000;
+	perspective: 1000;
 }
+
+.aCardHendersonCountyFM {
+	height: 22.2rem;
+}
+
+.aCardOldeTowne {
+	height: 24.4rem;
+}
+
+.aCardDarkHollow {
+	height: 20rem;
+}
+
+.aCardDowntown {
+	height: 22.2rem;
+}
+
+.aCardBirkdale {
+	height: 24.4rem;
+}
+
+.aCardBlueXmas {
+	height: 20rem;
+}
+
+.frontBack {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
+}
+
+.aCard:hover .frontBack {
+	transform: rotateY(180deg);
+}
+
+.cardFront {
+	position: absolute;
+	width: 15rem;
+	background: gainsboro;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border: 0.2rem solid saddlebrown;
+}
+
+.cardFrontHendersonCountyFM {
+	height: 22.2rem;
+}
+
+.cardFrontOldeTowne {
+	height: 24.4rem;
+}
+
+.cardFrontDarkHollow {
+	height: 20rem;
+}
+
+.cardFrontDowntown {
+	height: 22.2rem;
+}
+
+.cardFrontBirkdale {
+	height: 24.4rem;
+}
+
+.cardFrontBlueXmas {
+	height: 20rem;
+}
+
+.logoHendersonCountyFM {
+	width: 15rem;
+	height:  auto;
+}
+
+.logoOldeTowne {
+	width: 15rem;
+	height:  13rem;
+}
+
+.imgDarkHollow {
+	width: 15rem;
+	height:  15rem;
+}
+
+.imgDowntown {
+	width: 15rem;
+	height:  19.4rem;
+}
+
+.logoBirkdale {
+	width: 100%;
+	height:  auto;
+}
+
+.imgBlueXmas {
+	width: 15rem;
+	height:  15rem;
+}
+
+.frontTextHendersonCountyFM {
+	padding-top: 0.4rem;	
+	font-size: 2rem;
+	text-align: center;	
+	color: #5A7030;
+}
+
+.frontTextOldeTowne {
+	padding-top: 1.4rem;	
+	font-size: 2rem;
+	text-align: center;	
+	color: saddlebrown;
+}
+
+.frontTextDarkHollow {
+	padding-top: 0.8rem;
+	font-size: 2rem;
+	text-align: center;	
+	color: #093B1E;
+}
+
+.frontTextDowntown {
+	font-size: 2rem;
+	text-align: center;	
+	color: royalblue;
+}
+
+.frontTextBirkdale {
+	padding-top: 3.4rem;
+	font-size: 2rem;
+	text-align: center;	
+	color: #1C5B44;
+}
+
+.frontTextBlueXmas {
+	padding-top: 0.8rem;
+	font-size: 2rem;
+	text-align: center;	
+	color: green;
+}
+
+.cardBack {
+	position: absolute;
+	width: 15rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	border: 0.2rem solid saddlebrown;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+
+.photoCompress {
+	width: 100%;
+	height: 2rem;
+	border-bottom: 0.2rem solid saddlebrown;
+}
+
+.photo {
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;	
+}
+
+.photoCompress:hover {
+	width: 100%;
+	height: 20rem;
+}
+
+video {
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;
+}
+
+
+
 
 /*--- Going Home Section ---*/
 
