@@ -37,7 +37,7 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 }
 
 .aCardHendersonCountyFM {
-	height: 22.2rem;
+	height: 24.4rem;
 }
 
 .aCardOldeTowne {
@@ -82,7 +82,7 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 }
 
 .cardFrontHendersonCountyFM {
-	height: 22.2rem;
+	height: 24.4rem;
 }
 
 .cardFrontOldeTowne {
@@ -135,44 +135,37 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 	height:  15rem;
 }
 
-.frontTextHendersonCountyFM {
-	padding-top: 0.4rem;	
+.frontText {
 	font-size: 2rem;
 	text-align: center;	
+}
+
+.frontTextHendersonCountyFM {
+	padding-top: 1.4rem;
 	color: #5A7030;
 }
 
 .frontTextOldeTowne {
-	padding-top: 1.4rem;	
-	font-size: 2rem;
-	text-align: center;	
+	padding-top: 1.4rem;
 	color: saddlebrown;
 }
 
 .frontTextDarkHollow {
 	padding-top: 0.8rem;
-	font-size: 2rem;
-	text-align: center;	
 	color: #093B1E;
 }
 
 .frontTextDowntown {
-	font-size: 2rem;
-	text-align: center;	
 	color: royalblue;
 }
 
 .frontTextBirkdale {
-	padding-top: 3.4rem;
-	font-size: 2rem;
-	text-align: center;	
+	padding-top: 3.4rem;	
 	color: #1C5B44;
 }
 
 .frontTextBlueXmas {
 	padding-top: 0.8rem;
-	font-size: 2rem;
-	text-align: center;	
 	color: green;
 }
 
@@ -210,9 +203,6 @@ video {
 	height: 20rem;
 	overflow: hidden;
 }
-
-
-
 
 /*--- Going Home Section ---*/
 
