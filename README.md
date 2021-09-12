@@ -1,1 +1,1 @@
-Me and my guitar video's and library
+Me and my guitar video's and playlist

@@ -7,6 +7,7 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 
 #mainSection {
 	padding-top: 2rem;
+	padding-bottom: 2rem;
 	background-color: Wheat;
 }
 
@@ -34,7 +35,6 @@ html, body { margin: 0; padding: 0; font-family: cherry;}
 }
 
 #cableSpot {
-	margin: 0 0 2rem 0;	
 	font-size: 1.2rem;
 }
 
