@@ -1,0 +1,32 @@
+
+	<div class="mainSection">
+		<div class="mainColumn">
+			<div class="headingText">Leave a Comment.</div>
+
+			<form id="newComment" action="/addComment" method="POST">
+				<label for="byWho">How about a Name:</label>
+				<input type="text" id="byWho" class="inputs" autocomplete="off" name="byWho">
+				<label for="addedWhat">Comment or Reply:</label>
+				<textarea id="addedWhat" class="inputs" autocomplete="off" name="addedWhat"></textarea>
+				<input type="submit" id="button" value="Add a Comment">
+
+				<ul>
+					{{#each comments}}
+
+						<li id={{id}} style="background-color: white; margin-left: {{margin}}rem;">
+							<div>{{guest}}<span class="date">{{date}}</span></div>
+							<div class="comment">{{comment}}</div>
+							<input type="submit" class="replyBtn" name={{replyID}} value="Add a Reply">
+						</li>
+
+					{{/each}}
+				</ul>
+			</form>
+		</div>
+	</div>
+
+	<div id="linkSection">
+		<div id="home">Let's go back <a class="link" href="/">home</a> Toto!</div>
+	</div>
+
+	<script src="./javascript/clientSide.js"></script>

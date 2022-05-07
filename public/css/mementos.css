@@ -1,0 +1,58 @@
+
+.eachMemento {	
+	margin: 2rem 0 0 0;
+	font-size: 1.2rem;
+	text-align: justify;
+	min-height: 16rem;
+}
+
+img {
+	margin: 0 2rem 0 2rem;
+	width: 14.4rem;
+	height: 14.4rem;
+	border: 0.8rem solid SaddleBrown;
+}
+
+.floatL {
+	clear: both;
+	float: left;
+}
+
+.floatR	{
+	clear: both;
+	float: right;
+}
+
+.divider {
+	height: 0.4rem;
+	margin: 2rem 6rem 2rem 6rem;
+	background-color: SaddleBrown;
+}
+
+
+@media screen and (max-width: 580px) {
+	.eachMemento {	
+		text-align: left;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	img {
+		margin: 0 0 0 0;
+	}
+	.floatR {
+		clear: both;
+	}
+	.eachMemento {	
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	p {
+		text-align: center;
+	}	
+	.divider {
+		margin: 2rem 2rem 2rem 2rem;
+	}	
+}

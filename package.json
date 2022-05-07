@@ -1,0 +1,22 @@
+{
+  "name": "guitararoundtown",
+  "version": "1.0.0",
+  "description": "Displays my guitar offerings",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "14.17.0"
+  },
+  "author": "David Mollert",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.3",
+    "luxon": "^2.3.1",
+    "path": "^0.12.7"
+  }
+}

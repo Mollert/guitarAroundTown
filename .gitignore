@@ -1,2 +1,3 @@
-deploy/
-*.mp4
+node_modules/
+public/locations/
+deploy/sslKeys/

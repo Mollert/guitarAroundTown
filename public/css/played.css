@@ -1,0 +1,172 @@
+
+.flexRow {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#headingSpace {
+	margin: 0 0 3rem 0;	
+}
+
+.aCard {
+	position: relative;
+	width: 15.4rem;
+	margin: 0.5rem 0.5rem 1rem 0.5rem;
+	perspective: 60rem;	
+}
+
+.aCardTwoPicOneVideo {
+	height: 24.4rem;
+}
+
+.aCardTwoPic {
+	height: 22.2rem;
+}
+
+.aCardOneVideo {
+	height: 20rem;
+}
+
+.frontBack {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transform-style: preserve-3d;
+	transition: all 1.0s linear;
+}
+
+.aCard:hover .frontBack {
+	transform: rotateY(180deg);
+}
+
+.cardFront {
+	position: absolute;
+	width: 15rem;
+	background: gainsboro;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	border: 0.2rem solid saddlebrown;
+}
+
+.cardFrontTwoPicOneVideo {
+	height: 24.4rem;
+}
+
+.cardFrontTwoPic {
+	height: 22.2rem;
+}
+
+.cardFrontOneVideo {
+	height: 20rem;
+}
+
+.logoCharlotteShout {
+	width: 15rem;
+	height: auto;
+}
+
+.logoHendersonCountyFM {
+	width: 15rem;
+	height: auto;
+}
+
+.logoOldeTowne {
+	width: 15rem;
+	height:  13rem;
+}
+
+.imgDarkHollow {
+	width: 15rem;
+	height:  15rem;
+}
+
+.imgDowntown {
+	width: 15rem;
+	height:  19.4rem;
+}
+
+.logoBirkdale {
+	width: 100%;
+	height:  auto;
+}
+
+.imgBlueXmas {
+	width: 15rem;
+	height:  15rem;
+}
+
+.frontText {
+	font-size: 2rem;
+	text-align: center;	
+}
+
+.frontTextCharlotteShout {
+	padding-top: 4.2rem;
+	color: #E25B47;
+}
+
+.frontTextHendersonCountyFM {
+	padding-top: 1.4rem;
+	color: #5A7030;
+}
+
+.frontTextOldeTowne {
+	padding-top: 1.4rem;
+	color: saddlebrown;
+}
+
+.frontTextDarkHollow {
+	padding-top: 0.8rem;
+	color: #093B1E;
+}
+
+.frontTextDowntown {
+	color: royalblue;
+}
+
+.frontTextBirkdale {
+	padding-top: 3.4rem;	
+	color: #1C5B44;
+}
+
+.frontTextBlueXmas {
+	padding-top: 0.8rem;
+	color: green;
+}
+
+.cardBack {
+	position: absolute;
+	width: 15rem;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	border: 0.2rem solid saddlebrown;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	transform: rotateY(180deg);
+}
+
+.photoCompress {
+	width: 100%;
+	height: 2rem;
+	border-bottom: 0.2rem solid saddlebrown;
+}
+
+.photoNormal {
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;
+}
+
+.photoCompress:hover {
+	width: 100%;
+	height: 20rem;
+}
+
+video {
+	width: 100%;
+	height: 20rem;
+	overflow: hidden;
+}

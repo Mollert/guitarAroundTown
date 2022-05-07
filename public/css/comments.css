@@ -1,0 +1,81 @@
+
+#newComment {
+	margin: 2rem 0 3rem 0;
+	font-size: 1rem;
+}
+
+.inputs {
+	display: block;
+	font-family: cherry;
+	font-size: 1rem;
+	min-width: 16rem;
+	padding: 0.6rem;
+	border: 0.1rem solid saddlebrown;
+	border-radius: 0.4rem;	
+}
+
+#byWho {
+	margin-bottom: 1.2rem;
+	width: 30%;
+}
+
+#addedWhat {
+	width: 50%;
+	height: 5rem;
+}
+
+#button {
+	margin-top: 1.4rem;
+	height: 2rem;
+	font-family: cherry;
+	font-size: 1rem;
+	color: black;
+	padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+	background-color: White;
+	border: 0.1rem solid saddlebrown;
+	border-radius: 0.4rem;
+}
+
+#button:hover {
+	cursor: pointer;
+}
+
+/*--- Comment Section ---*/
+
+ul {
+	list-style-type: none;
+	padding: 0 0;
+	margin: 2rem 1.6rem 0 1.6rem;
+}
+
+li {
+	border-radius: 0.6rem;
+	padding: 1rem 1rem 0.4rem 1rem;
+	margin-bottom: 1rem;
+}
+
+.date {
+	float: right;
+	font-size: 0.8rem;
+}
+
+.comment {
+	clear: both;
+	padding: 0.6rem;
+}
+
+.replyBtn {
+	margin-left: 0.6rem;
+	height: 1.6rem;
+	font-family: cherry;
+	font-size: 0.8rem;
+	color: black;
+	padding: 0.2rem 0.6rem 0.2rem 0.6rem;
+	background-color: Wheat;
+	border: 0.1rem solid saddlebrown;
+	border-radius: 0.2rem;
+}
+
+.replyBtn:hover {
+	cursor: pointer;
+}
